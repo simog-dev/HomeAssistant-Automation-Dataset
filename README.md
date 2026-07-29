@@ -17,12 +17,12 @@ Single file: [`dataset.jsonl`](dataset.jsonl) — one JSON object per line, one 
 
 | Field | Description |
 |---|---|
-| `user_id` | Anonymised identifier of the GitHub account the automation was extracted from. Stable across records, so user-level grouping is possible. |
-| `automation_id` | Stable identifier of the automation within the dataset. |
+| `id` | Stable identifier of the automation within the dataset. |
+| `user_id` | Anonymised identifier of the GitHub account the automation was extracted from. Stable across records, so user-level grouping is possible. | 
 | `yaml` | The extracted automation block, verbatim, as authored by the user. |
-| `security.category` | Top-level risk category (see taxonomy below). |
-| `security.subcategory` | Fine-grained risk subcategory, or `null` for `Harmless`. |
-| `security.rationale` | Short textual justification of the assigned label. |
+| `risk_category` | Top-level risk category (see taxonomy below). |
+| `risk_subcategory` | Fine-grained risk subcategory, or `null` for `Harmless`. |
+| `rationale` | Short textual justification of the assigned label. |
 
 ## Pipeline
 
