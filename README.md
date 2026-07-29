@@ -14,7 +14,6 @@ All records are derived from **publicly available** repositories. Repository and
 
 Single file: [`dataset.jsonl`](dataset.jsonl) — one JSON object per line, one line per automation.
 
-<!-- TODO: replace with the exact field list of dataset.jsonl -->
 
 | Field | Description |
 |---|---|
@@ -23,10 +22,7 @@ Single file: [`dataset.jsonl`](dataset.jsonl) — one JSON object per line, one 
 | `yaml` | The extracted automation block, verbatim, as authored by the user. |
 | `security.category` | Top-level risk category (see taxonomy below). |
 | `security.subcategory` | Fine-grained risk subcategory, or `null` for `Harmless`. |
-| `security.severity` | `high` \| `medium` \| `low` \| `none`. |
-| `security.risk_type` | `specific` \| `generic` (see below). |
 | `security.rationale` | Short textual justification of the assigned label. |
-| `security.reviewed` | Whether the record passed through manual review, or was auto-accepted by the agreement rule. |
 
 ## Pipeline
 
