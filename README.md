@@ -66,10 +66,6 @@ A purely LLM-based approach was judged insufficiently reliable here: risk identi
 - **Cybersecurity Harms** — risks arising from network communication, malicious traffic generation, or automatic file propagation.
 - **Harmless** — no meaningful privacy or security risk identified.
 
-Each automation additionally carries:
-
-- **Severity** — `high` (can directly affect privacy, safety, or physical access) through `low` (marginal, or only meaningful in combination with other conditions) to `none`.
-- **Risk type** — `specific` (unsafe as written, but potentially mitigable through additional safeguards) vs. `generic` (not inherently unsafe, but risky depending on deployment context, configuration choices, or external conditions).
 
 **Annotation procedure.**
 
